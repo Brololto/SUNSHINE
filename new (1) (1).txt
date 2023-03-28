@@ -1577,8 +1577,8 @@ spawn(function()
 			CanKill = true,
 			BreakLights = true,
 			FlickerLights = {
-			       true,
-				1,
+                            false,
+				 4,
 			},
 			Cycles = {
 				Min = 1,
