@@ -772,7 +772,7 @@ local function GetGitSound(GithubSnd,SoundName)
 				sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
 				return sound
 			end
-			local Chase = GetGitSound("https://github.com/Brololto/G95-moving-/blob/main/Screen_Recording_20230327-191855_YouTube%20(online-audio-converter.com).mp3?raw=true","G-95chase")
+			local Chase = GetGitSound("https://github.com/Brololto/bettersound/blob/main/Screen_Recording_20230328-170621_YouTube%20(online-audio-converter.com).mp3?raw=true","G-95chase")
 			Chase.Parent = workspace
 			Chase.Volume = 3
 -- Create entity
