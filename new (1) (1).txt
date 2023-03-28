@@ -1571,14 +1571,14 @@ spawn(function()
 		-- Create entity
 		local entity = Creator.createEntity({
 			Model = "12158222955",
-			Speed = 60,
-			DelayTime = 0,
+			Speed = 50,
+			DelayTime = 2,
 			HeightOffset = 0,
 			CanKill = true,
 			BreakLights = true,
 			FlickerLights = {
-				false,
-				,
+			       true,
+				1,
 			},
 			Cycles = {
 				Min = 1,
