@@ -749,7 +749,7 @@ wait(2)
 firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Made by tinkgy#8163 (scripter Credits to (modeler figure#2824 Ping#1481 Anzor',true,1)
 
 spawn(function() -- E
-while wait(198) do
+while wait(179) do
 if workspace.Ambience_Seek.Playing == true then
 			continue
 		end
@@ -1578,7 +1578,7 @@ spawn(function()
 			BreakLights = true,
 			FlickerLights = {
 				false,
-				80,
+				,
 			},
 			Cycles = {
 				Min = 1,
@@ -1673,7 +1673,7 @@ end)
 
 
 
-wait(225)
+wait(249)
 game:GetService("ReplicatedStorage").GameData.LatestRoom:GetPropertyChangedSignal("Value"):Wait()
 wait(2)
 game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(61, 171, 98)
