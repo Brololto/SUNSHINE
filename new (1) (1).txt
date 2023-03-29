@@ -782,8 +782,8 @@ end)
 
 local painters = 1
 local paints = {
-	[1] = {"rbxassetid://11881132074","Despair"},
-	[4] = {"rbxassetid://7084794697","him."}
+	[1] = {"rbxassetid://11881132074","goofy goobrt"},
+	[2] = {"rbxassetid://7084794697","sorry ping."}
 }
 ---
 --- NEW PAINTINGS YOOOOOOOOOOOOOOOOOOOOO
