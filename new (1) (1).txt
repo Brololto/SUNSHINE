@@ -734,7 +734,43 @@ end
 coroutine.wrap(CJZEISY_fake_script)()
 
 
+--why balls
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
+	wait(3.5)
+	if not workspace:FindFirstChild("SeekMoving") then
+		return 
+	end
+	local RealSeek = workspace:FindFirstChild("SeekMoving")
+	local RealSeekRig = RealSeek:FindFirstChild("SeekRig")
+	local seekNew = game:GetObjects("rbxassetid://12694076768")[1] 
+	seekNew.Name = "seek2"
 
+	for i,v in pairs(seekNew.Figure:GetChildren()) do
+		if v:IsA("Sound") then
+			v:Stop()
+		end
+	end
+	RealSeekRig.Head.Eye:Destroy()
+	RealSeekRig.Head.Black:Destroy()
+	seekNew.Parent = workspace
+	local SeekRig = seekNew:FindFirstChild("SeekRig")
+	SeekRig:FindFirstChild("Root").Anchored = true
+	spawn(function()
+		while game["Run Service"].Heartbeat:Wait() and RealSeek do
+			if RealSeekRig:FindFirstChild("Root") then
+				SeekRig:FindFirstChild("Root").CFrame = RealSeekRig:FindFirstChild("Root").CFrame
+			end
+			for i,v in pairs(RealSeek.Figure:GetChildren()) do
+				RealSeek.Figure.Footsteps:Stop()
+				RealSeek.Figure.FootstepsFar:Stop()
+			end
+			for i,v in pairs(RealSeekRig:GetChildren()) do
+				if v:IsA("BasePart") then
+					v.Transparency = 1
+				end
+			end
+		end
+	end)
 
 
 
