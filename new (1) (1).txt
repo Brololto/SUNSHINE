@@ -777,7 +777,6 @@ local NewSeek = GetGitSoundID("https://github.com/Brololto/SEEKREMIXHARDCOREV3/b
 	local OldSeek = workspace.Ambience_Seek
 	OldSeek.SoundId=NewSeek
 	OldSeek.Volume = 2.2
-end)
 
 
 
