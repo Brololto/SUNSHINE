@@ -773,7 +773,11 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
 	end)
 
 
-
+local NewSeek = GetGitSoundID("https://github.com/Brololto/SEEKREMIXHARDCOREV3/blob/main/Screen_Recording_20230328-205041_YouTube%20(online-audio-converter.com).mp3?raw=true","NewSeek")
+	local OldSeek = workspace.Ambience_Seek
+	OldSeek.SoundId=NewSeek
+	OldSeek.Volume = 2.2
+end)
 
 
 
@@ -2932,11 +2936,6 @@ end)
 
 
 
-spawn(function() -- seek model
-while wait(255) do
-loadstring(game:HttpGet("https://pastebin.com/raw/uXY1EAxZ"))()
-         end
-end)
 
 
 
@@ -2947,9 +2946,7 @@ end)
 
 game.Workspace.Ambience_Figure.SoundId = game.Workspace.Ambience_FigureIntense.SoundId
 game.Workspace.Ambience_Figure.Volume = "0.7"
-game.Workspace.Ambience_Seek.SoundId = "rbxassetid://1846862303"
 if game.ReplicatedStorage.GameData.LatestRoom.Value == "50" then
-	game.Workspace.Ambience_Seek.SoundId = "rbxassetid://1848156876"
 end
 
 spawn(function()
