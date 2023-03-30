@@ -1714,7 +1714,7 @@ end)
 
 
 
-wait(249)
+wait(242)
 game:GetService("ReplicatedStorage").GameData.LatestRoom:GetPropertyChangedSignal("Value"):Wait()
 wait(2)
 game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(61, 171, 98)
