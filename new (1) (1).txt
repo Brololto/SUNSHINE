@@ -734,6 +734,18 @@ end
 coroutine.wrap(CJZEISY_fake_script)()
 
 
+
+
+function GetGitSoundID(GithubSnd,SoundName)
+	SoundName=tostring(SoundName)
+	local url=GithubSnd
+	SoundName=tostring(SoundName)
+	local url=GithubSnd
+	FileName = SoundName
+	writefile("customObject_Sound_"..FileName..".mp3", game:HttpGet(url))
+	return (getcustomasset or getsynasset)("customObject_Sound_"..FileName..".mp3")
+end
+
 --why balls
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
 	wait(3.5)
