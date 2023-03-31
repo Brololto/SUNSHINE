@@ -1475,9 +1475,6 @@ end)
 
 Spawn1 = coroutine.wrap(function() -- yummers
 while task.wait(395) do
-if workspace.Ambience_Seek.Playing == true then
-			continue
-		end
 		if workspace.Ambience_Figure.Playing == true then
 			continue
 		end
