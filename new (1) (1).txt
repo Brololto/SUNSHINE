@@ -1807,12 +1807,12 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12403052797", -- Can be GitHub file or rbxassetid
-    Speed = 110, -- Percentage, 100 = default Rush speed
+    Speed = 500 -- Percentage, 100 = default Rush speed
     DelayTime = 1.4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
     BreakLights = false,
-    KillRange = 40,
+    KillRange = 30,
     BackwardsMovement = true,
     FlickerLights = {
         false, -- Enabled
@@ -1950,12 +1950,12 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12403052797", -- Can be GitHub file or rbxassetid
-    Speed = 110, -- Percentage, 100 = default Rush speed
+    Speed = 500 -- Percentage, 100 = default Rush speed
     DelayTime = 1.4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
     BreakLights = false,
-    KillRange = 40,
+    KillRange = 30,
     BackwardsMovement = true,
     FlickerLights = {
         false, -- Enabled
@@ -2093,12 +2093,12 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12403052797", -- Can be GitHub file or rbxassetid
-    Speed = 110, -- Percentage, 100 = default Rush speed
+    Speed = 500, -- Percentage, 100 = default Rush speed
     DelayTime = 1.4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
     BreakLights = false,
-    KillRange = 40,
+    KillRange = 30,
     BackwardsMovement = true,
     FlickerLights = {
         false, -- Enabled
@@ -2236,12 +2236,12 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12403052797", -- Can be GitHub file or rbxassetid
-    Speed = 110, -- Percentage, 100 = default Rush speed
+    Speed = 600, -- Percentage, 100 = default Rush speed
     DelayTime = 1.4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
     BreakLights = false,
-    KillRange = 40,
+    KillRange = 50,
     BackwardsMovement = true,
     FlickerLights = {
         false, -- Enabled
@@ -2379,12 +2379,12 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12403052797", -- Can be GitHub file or rbxassetid
-    Speed = 110, -- Percentage, 100 = default Rush speed
+    Speed = 550 -- Percentage, 100 = default Rush speed
     DelayTime = 1.4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
     BreakLights = false,
-    KillRange = 40,
+    KillRange = 30,
     BackwardsMovement = true,
     FlickerLights = {
         false, -- Enabled
@@ -2522,12 +2522,12 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12403052797", -- Can be GitHub file or rbxassetid
-    Speed = 110, -- Percentage, 100 = default Rush speed
+    Speed = 550 -- Percentage, 100 = default Rush speed
     DelayTime = 1.4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
     BreakLights = false,
-    KillRange = 40,
+    KillRange = 30,
     BackwardsMovement = true,
     FlickerLights = {
         false, -- Enabled
