@@ -791,7 +791,7 @@ local NewSeek = GetGitSoundID("https://github.com/Brololto/SEEKREMIXHARDCOREV3/b
         OldSeek.Volume = 2.2
        end)  
 
-
+game.ReplicatedStorage.Sounds.BulbZap.SoundId = "rbxassetid://5837227586"
 
 
 local syncConnection; syncConnection = game:GetService("ReplicatedStorage").GameData.LatestRoom:GetPropertyChangedSignal("Value"):Wait()
