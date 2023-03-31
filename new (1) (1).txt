@@ -915,7 +915,6 @@ entity.Debug.OnEntityDespawned = function(entityModel)
 		Slamsound:Play()
 		Slamsound.Volume = 5     
 workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
-Destroy:Chase()
 end
 
 entity.Debug.OnEntityStartMoving = function(entityModel)
