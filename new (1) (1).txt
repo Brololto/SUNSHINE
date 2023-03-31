@@ -854,7 +854,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = Creator.createEntity({
     CustomName = "G-95", -- Custom name of your entity
     Model = "https://github.com/Brololto/NEWV2/blob/main/G-95_NIGGER.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-    Speed = 900, -- Percentage, 100 = default Rush speed
+    Speed = 400, -- Percentage, 100 = default Rush speed
     DelayTime = 7, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
@@ -915,6 +915,7 @@ entity.Debug.OnEntityDespawned = function(entityModel)
 		Slamsound:Play()
 		Slamsound.Volume = 5     
 workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:WaitForChild("Door").ClientOpen:FireServer()
+Destroy:Chase()
 end
 
 entity.Debug.OnEntityStartMoving = function(entityModel)
